@@ -146,7 +146,7 @@ if __name__ == '__main__':
     config = {'bootstrap_servers': "localhost:9092",
               'schema_registry': "http://localhost:8081",
               'topic_name': "twitter_posts",
-              'avro_schema_file_path': "M:\\Training\\projects\\Sentiment Analysis\\tweets.avsc"
+              'avro_schema_file_path': "M:\\put\\your\\Schema file path\\tweets.avsc"
                 }
 
     main(config)
