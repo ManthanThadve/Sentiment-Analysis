@@ -1,0 +1,21 @@
+{
+    "type": "array",
+    "items": {
+      "type": "record",
+      "name": "Tweet",
+      "namespace": "com.example",
+      "fields": [
+        {"name": "author_id", "type": "string"},
+        {"name": "created_at", "type": "string"},
+        {"name": "id", "type": "string"},
+        {
+          "name": "edit_history_tweet_ids",
+          "type": {
+            "type": "array",
+            "items": "string"
+          }
+        },
+        {"name": "text", "type": "string"}
+      ]
+    }
+  }
